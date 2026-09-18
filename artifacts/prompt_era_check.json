@@ -1,0 +1,17 @@
+{
+ "pre_logbooks": 1,
+ "pre_instances": 3,
+ "pre_toy": 0,
+ "post_toy": 6892,
+ "straddling_claims": 3,
+ "all_pre_claims": 0,
+ "pre_comp": {
+  "inconclusive": 3
+ },
+ "post_comp": {
+  "inconclusive": 8779,
+  "toy": 6892,
+  "verified": 15651,
+  "falsified": 1363
+ }
+}

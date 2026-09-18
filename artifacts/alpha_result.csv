@@ -1,0 +1,13 @@
+quantity,value
+D_e (exact),0.623
+eps (fitted),0.5077
+alpha (model),0.242
+alpha CI low,0.219
+alpha CI high,0.265
+alpha bound low,-0.231
+alpha bound high,0.579
+chance-null pooled disagreement,0.8218
+observed pooled,0.701
+per-pair disagreement (model),0.472
+per-pair disagreement CI low,0.4577
+per-pair disagreement CI high,0.4863

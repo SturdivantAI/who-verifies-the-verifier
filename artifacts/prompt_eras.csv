@@ -1,0 +1,5 @@
+era_start,commit,title,sys_sha,usr_sha,temperature,max_tokens,max_logbook_chars,labels,logbooks_judged_in_era
+2026-07-08T07:16:21,60eae16125,Add app.py,d14b04183a,0f586bf724,0.1,,120_000,falsified+inconclusive+verified,1.0
+2026-07-09T20:58:31,a3f64c574c,Add toy verdict tier for partial-credit leaderboard scoring.,a0aa22a100,544493b4ec,0.1,,120_000,falsified+inconclusive+toy+verified,
+2026-07-10T05:51:30,1b92a52b3c,Split discovery and judging schedules,73c84b0ca4,329fee3102,0.1,8000,120_000,falsified+inconclusive+toy+verified,
+2026-07-15T20:22:15,a0631724a1,Allow similar-class open-model backend substitution as non-toy,bdc33642b7,329fee3102,0.1,8000,120_000,falsified+inconclusive+toy+verified,

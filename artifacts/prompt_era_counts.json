@@ -1,0 +1,16 @@
+{
+ "era_logbooks": {
+  "60eae16125": 1,
+  "a3f64c574c": 2,
+  "1b92a52b3c": 10,
+  "a0631724a1": 6385
+ },
+ "era_instances": {
+  "60eae16125": 3,
+  "a3f64c574c": 4,
+  "1b92a52b3c": 22,
+  "a0631724a1": 32659
+ },
+ "sampled_outside_final_era": 0,
+ "sampled_total": 466
+}

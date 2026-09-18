@@ -1,0 +1,13 @@
+{
+ "sha_collision_groups": 13,
+ "same_sha_pairs": 34,
+ "same_sha_agree": 33,
+ "noexp_composition": {
+  "inconclusive": 726
+ },
+ "matched_alpha_mean": 0.2901134836340914,
+ "matched_alpha_ci": [
+  0.27738873567202205,
+  0.30313075928535066
+ ]
+}

@@ -1,0 +1,8 @@
+condition,n,agree,alpha,ci
+"archived, 34 pairs (recorded baseline)",34,33,0.9534,"[0.840, 1.000]*"
+"archived, same 24 runnable pairs",24,24,1.0,"[1.000, 1.000]"
+"reproduced rep1, cross-logbook",24,24,1.0,"[1.000, 1.000]"
+"reproduced rep2, cross-logbook",24,24,1.0,"[1.000, 1.000]"
+"rep1 vs rep2, same logbook",48,48,1.0,"[1.000, 1.000]"
+"archived vs rep1, same logbook",48,48,1.0,"[1.000, 1.000]"
+"archived vs rep2, same logbook",48,48,1.0,"[1.000, 1.000]"

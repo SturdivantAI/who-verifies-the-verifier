@@ -1,0 +1,58 @@
+{
+ "stratumA_identical_evidence": {
+  "pairs": 0,
+  "claims_with_ge1": 0,
+  "alpha": null,
+  "D_o": null,
+  "D_e": null,
+  "hard_pairs": 0,
+  "hard_claims": 0
+ },
+ "stratumB_differing_evidence": {
+  "pairs": 112390,
+  "claims_with_ge1": 5081,
+  "alpha": 0.14141939871701859,
+  "D_o": 0.47891271465432866,
+  "D_e": 0.5577958713936547,
+  "hard_pairs": 2893,
+  "hard_claims": 337,
+  "alpha_CI": [
+   0.13035043398390375,
+   0.15295656391617002
+  ]
+ },
+ "substitute_both_no_experiments": {
+  "pairs": 363,
+  "claims_with_ge1": 174,
+  "alpha": NaN,
+  "D_o": 0.0,
+  "D_e": 0.0,
+  "hard_pairs": 0,
+  "hard_claims": 0,
+  "alpha_CI": [
+   NaN,
+   NaN
+  ]
+ },
+ "substitute_same_sha": {
+  "pairs": 34,
+  "claims_with_ge1": 34,
+  "alpha": 0.953375086986778,
+  "D_o": 0.029411764705882353,
+  "D_e": 0.6308165057067603,
+  "hard_pairs": 0,
+  "hard_claims": 0,
+  "alpha_CI": [
+   0.840495471378218,
+   1.0
+  ]
+ },
+ "evidence_field_diagnostics": {
+  "total_instances": 32688,
+  "distinct_evidence_strings": 32664,
+  "repeat_pair_total": 112390,
+  "noexp_instances": 1284,
+  "sha_distinct": 6385,
+  "logbooks": 6398
+ }
+}

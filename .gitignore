@@ -1,0 +1,22 @@
+# credentials
+.env
+*.key
+*_token*
+.huggingface/
+
+# pickles are not shipped: opaque, and an execution risk for anyone cloning
+*.pkl
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# corpus, retrieved separately (see data/README.md)
+data/icml2026-verdicts/
+data/icml2026-challenge/
+
+# os
+.DS_Store

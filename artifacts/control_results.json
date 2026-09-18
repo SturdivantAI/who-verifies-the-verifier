@@ -1,0 +1,138 @@
+{
+ "table": [
+  {
+   "condition": "archived, 34 pairs (recorded baseline)",
+   "n": 34,
+   "agree": 33,
+   "alpha": 0.9534,
+   "ci": "[0.840, 1.000]*"
+  },
+  {
+   "condition": "archived, same 24 runnable pairs",
+   "n": 24,
+   "agree": 24,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  },
+  {
+   "condition": "reproduced rep1, cross-logbook",
+   "n": 24,
+   "agree": 24,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  },
+  {
+   "condition": "reproduced rep2, cross-logbook",
+   "n": 24,
+   "agree": 24,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  },
+  {
+   "condition": "rep1 vs rep2, same logbook",
+   "n": 48,
+   "agree": 48,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  },
+  {
+   "condition": "archived vs rep1, same logbook",
+   "n": 48,
+   "agree": 48,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  },
+  {
+   "condition": "archived vs rep2, same logbook",
+   "n": 48,
+   "agree": 48,
+   "alpha": 1.0,
+   "ci": "[1.000, 1.000]"
+  }
+ ],
+ "flips": [],
+ "usable_groups": {
+  "09a801d6fb": {
+   "orid": "29sn1uqWn3",
+   "space_ids": [
+    "ICML-2026-agent-repro/repro-why-linear-rnns-more-parallelizable",
+    "vimarsh/repro-why-linear-rnns-more-parallelizable"
+   ],
+   "n_shared": 6
+  },
+  "0c20cb898d": {
+   "orid": "2iDtIht7W4",
+   "space_ids": [
+    "AceVikings/repro-13581-nb2-lr-optimization",
+    "AceVikings/repro-a-sketch-and-project-analysis-of-subsampled-natural-gradient-algorithms"
+   ],
+   "n_shared": 6
+  },
+  "1d17d5fa14": {
+   "orid": "iEtOxzAs51",
+   "space_ids": [
+    "bsenst/repro-sgera-stein-guided-ecg-report-alignment-for-ecg-representation-learning",
+    "ICML-2026-agent-repro/repro-sgera-stein-guided-ecg-report-alignment-for-ecg-representation-learning"
+   ],
+   "n_shared": 3
+  },
+  "6b4db58ff5": {
+   "orid": "IalpB5Mzaz",
+   "space_ids": [
+    "bsenst/working",
+    "bsenst/Time-Conditioned-Foreseeing-An-EHR-Specific-Foundation-Model"
+   ],
+   "n_shared": 3
+  },
+  "cf6521b3d3": {
+   "orid": "iJDJCO4mji",
+   "space_ids": [
+    "arthrod/repro-mmbert-annealed-multilingual-encoder-revision",
+    "arthrod/repro-mmbert-annealed-multilingual-encoder"
+   ],
+   "n_shared": 6
+  }
+ },
+ "excluded_groups": {
+  "01086ab68c": {
+   "orid": "cX3r7kAqr1",
+   "fetched": 1,
+   "n_shared": 2
+  },
+  "1581710534": {
+   "orid": "N9nlCRUiir",
+   "fetched": 2,
+   "n_shared": 0
+  },
+  "1b5d605d9d": {
+   "orid": "68AMoK2YNk",
+   "fetched": 2,
+   "n_shared": 0
+  },
+  "4ea8c7d045": {
+   "orid": "2iFauBXg7Y",
+   "fetched": 1,
+   "n_shared": 6
+  },
+  "668097546b": {
+   "orid": "rEzGzILnVC",
+   "fetched": 1,
+   "n_shared": 2
+  },
+  "8aba6f2326": {
+   "orid": "J0y3sNbo9G",
+   "fetched": 2,
+   "n_shared": 0
+  },
+  "913699f1d9": {
+   "orid": "jl2f2Y3iuC",
+   "fetched": 2,
+   "n_shared": 0
+  },
+  "f69d7a4872": {
+   "orid": "SGTLVjx3MN",
+   "fetched": 2,
+   "n_shared": 0
+  }
+ }
+}

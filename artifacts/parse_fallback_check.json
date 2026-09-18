@@ -1,0 +1,11 @@
+{
+ "instances": 32688,
+ "empty": 16,
+ "empty_by_verdict": {
+  "inconclusive": 16
+ },
+ "lb_any_empty": 8,
+ "lb_all_empty": 0,
+ "repeat_claims_affected": 10,
+ "repeat_claims": 5081
+}

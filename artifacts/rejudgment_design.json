@@ -1,0 +1,32 @@
+{
+ "raw_pairs": 2302,
+ "nbar": 5.2318181818181815,
+ "deff": 2.794714090909091,
+ "n_eff": 823.6978542771736,
+ "icc": 0.4241,
+ "primary_logbooks": 440,
+ "control_logbooks": 26,
+ "dup_groups": 13,
+ "dup_orids": [
+  "29sn1uqWn3",
+  "2iDtIht7W4",
+  "2iFauBXg7Y",
+  "68AMoK2YNk",
+  "IalpB5Mzaz",
+  "J0y3sNbo9G",
+  "N9nlCRUiir",
+  "SGTLVjx3MN",
+  "cX3r7kAqr1",
+  "iEtOxzAs51",
+  "iJDJCO4mji",
+  "jl2f2Y3iuC",
+  "rEzGzILnVC"
+ ],
+ "calls": 932,
+ "eligible_papers": {
+  "m=2": 353,
+  "m=3-5": 309,
+  "m=6-10": 149,
+  "m>10": 136
+ }
+}

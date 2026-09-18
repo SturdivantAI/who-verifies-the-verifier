@@ -1,0 +1,127 @@
+{
+ "n_logbooks": 236,
+ "n_claim_comparisons": 1225,
+ "retest_disagreements": 103,
+ "retest_disagreement_rate": 0.08408,
+ "icc1": 0.3503,
+ "icc_n_bar": 5.191,
+ "icc_note": "ok",
+ "alpha_retest": 0.8737,
+ "alpha_ci95": [
+  0.8336,
+  0.9086
+ ],
+ "alpha_half_width": 0.0375,
+ "target_half_width": 0.0458,
+ "target_met": true,
+ "logbooks_with_any_disagreement": 53,
+ "logbooks_fully_stable": 183,
+ "schema_count_mismatches": [
+  [
+   "abhishekkataria16/claim-4ltyJqAHMg-logbook",
+   4,
+   3,
+   4
+  ]
+ ],
+ "by_band": {
+  "m=2": {
+   "claims": 292,
+   "disagree": 33,
+   "rate": 0.113,
+   "icc1": 0.2339,
+   "alpha": 0.837
+  },
+  "m=3-5": {
+   "claims": 303,
+   "disagree": 26,
+   "rate": 0.0858,
+   "icc1": 0.5176,
+   "alpha": 0.8751
+  },
+  "m=6-10": {
+   "claims": 310,
+   "disagree": 26,
+   "rate": 0.0839,
+   "icc1": 0.454,
+   "alpha": 0.8662
+  },
+  "m>10": {
+   "claims": 320,
+   "disagree": 18,
+   "rate": 0.0563,
+   "icc1": 0.1674,
+   "alpha": 0.8953
+  }
+ },
+ "archive": {
+  "n": 1225,
+  "fresh_vs_archive_rate": 0.16327,
+  "fresh_vs_fresh_rate": 0.08408,
+  "caveat": "archive ran the UNPINNED router; no provider field in corpus; fresh-vs-archive conflates decode noise with regime difference and must not be quoted as a property of the judge"
+ },
+ "retest_ci95": [
+  0.0608,
+  0.1103
+ ],
+ "icc1_ci95": [
+  0.233,
+  0.4479
+ ],
+ "pilot_comparison": {
+  "pilot_rate": 0.1049,
+  "pilot_inside_pooled_ci": true,
+  "pilot_icc": 0.5415,
+  "pilot_icc_inside_pooled_ci": false,
+  "design_icc": 0.424,
+  "design_icc_inside_pooled_ci": true,
+  "note": "pilot ICC was an overestimate at 60 clusters; the design's 0.424 is supported"
+ },
+ "band_trend_gee": {
+  "model": "GEE logit, exchangeable, clustered by logbook",
+  "or_per_band": 0.809,
+  "ci95": [
+   0.627,
+   1.042
+  ],
+  "z": -1.64,
+  "p": 0.1011,
+  "verdict": "descriptive only, not significant"
+ },
+ "archive_ratio": {
+  "ratio": 1.942,
+  "ci95": [
+   1.435,
+   2.688
+  ],
+  "excludes_one": true,
+  "pilot_ratio": 2.22
+ },
+ "corpus_decay": {
+  "rows_scanned": 250,
+  "spaces_gone": 12,
+  "rate": 0.048,
+  "orid_missing": 2,
+  "head_moved": 23,
+  "head_moved_rate": 0.0975,
+  "truncated": 9
+ },
+ "cost": {
+  "prompt_tokens": 4410612,
+  "completion_tokens": 239899,
+  "cached_tokens": 2237312,
+  "cached_share": 0.5073,
+  "usd_if_cache_free": 4.1,
+  "usd_if_cache_full_rate": 7.23,
+  "cumulative_with_pilot": [
+   5.31,
+   8.44
+  ]
+ },
+ "calls": {
+  "pilot": 120,
+  "extension": 352,
+  "total": 472,
+  "schema_failures_total": 1
+ }
+}

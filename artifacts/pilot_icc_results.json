@@ -1,0 +1,203 @@
+{
+ "run": {
+  "date": "2026-09-12",
+  "model_string": "zai-org/GLM-5.2:baseten",
+  "provider_pin_honoured": true,
+  "logbooks": 60,
+  "claims_staged": 306,
+  "calls": 120,
+  "replicates": 2,
+  "schema_pass": {
+   "rep1": 60,
+   "rep2": 59
+  },
+  "measured_cost_usd": 1.21,
+  "tokens": {
+   "prompt_per_rep": 565247,
+   "completion_rep1": 38033,
+   "completion_rep2": 38025,
+   "cached_rep1": 25152,
+   "cached_rep2": 539424
+  }
+ },
+ "staging": {
+  "stratified": "15 per band",
+  "substitutions": 0,
+  "titles_matched": 60,
+  "head_moved_since_judging": 4,
+  "hit_120k_cap": 2,
+  "claim_lists": "archived (verdicts.json), original prompt order",
+  "paper_metadata": "local challenge index snapshot (index.json, 6341 papers)"
+ },
+ "retest": {
+  "claims_compared": 305,
+  "disagreements": 32,
+  "disagreement_rate": 0.10492,
+  "cp95": [
+   0.07288,
+   0.14488
+  ],
+  "cluster_bootstrap95": [
+   0.04713,
+   0.17466
+  ],
+  "krippendorff_alpha": 0.8477,
+  "alpha_cluster_bootstrap95": [
+   0.7457,
+   0.9313
+  ],
+  "alpha_halfwidth": 0.0928,
+  "logbooks_with_any_disagreement": 12,
+  "per_band_rate_pct": {
+   "m=2": 15.58,
+   "m=3-5": 11.43,
+   "m=6-10": 7.32,
+   "m>10": 7.89
+  }
+ },
+ "harness_semantics_variant": {
+  "note": "absent claim index backfilled 'inconclusive' per app.py",
+  "claims": 306,
+  "disagreements": 32,
+  "disagreement_rate": 0.10458,
+  "krippendorff_alpha": 0.8483
+ },
+ "icc": {
+  "icc1_agreement_indicator": 0.5415,
+  "clusters": 60,
+  "mean_cluster_size": 5.083,
+  "design_effect": 3.211,
+  "design_assumed_icc": 0.4241,
+  "design_assumed_source": "archived cross-judge condition (112380 pairs, 20597 clusters)"
+ },
+ "vs_archive": {
+  "rep1_agreement": 0.7672,
+  "rep2_agreement": 0.7607,
+  "alpha_rep1_vs_archived": 0.6596,
+  "n": 305
+ },
+ "control_arm_tension": {
+  "control_disagreements": 0,
+  "control_comparisons": 48,
+  "p_zero_given_pilot_rate": 0.00489
+ },
+ "sample_size": {
+  "target_alpha_halfwidth": 0.0458,
+  "scaling_validated": {
+   "k15": 0.1897,
+   "k30": 0.1332,
+   "k45": 0.1041,
+   "k60": 0.0906
+  },
+  "logbooks_required": 235,
+  "calls_required": 470,
+  "claims_implied": 1194,
+  "protocol_power_table_said": {
+   "N_claims": 400,
+   "rejudgments": 800
+  },
+  "full_arm_designed": {
+   "logbooks": 440,
+   "calls": 880,
+   "claims": 2302
+  },
+  "options": [
+   {
+    "option": "A. stop at pilot",
+    "logbooks": 60,
+    "total_calls": 120,
+    "additional_calls": 0,
+    "alpha_halfwidth": 0.0906,
+    "marginal_usd": 0.0,
+    "cumulative_usd": 1.21
+   },
+   {
+    "option": "B. extend to target",
+    "logbooks": 235,
+    "total_calls": 470,
+    "additional_calls": 350,
+    "alpha_halfwidth": 0.0458,
+    "marginal_usd": 5.58,
+    "cumulative_usd": 6.79
+   },
+   {
+    "option": "C. full primary arm",
+    "logbooks": 440,
+    "total_calls": 880,
+    "additional_calls": 760,
+    "alpha_halfwidth": 0.0335,
+    "marginal_usd": 12.18,
+    "cumulative_usd": 13.39
+   }
+  ]
+ },
+ "cost_revision": {
+  "preflight_pilot_cold_usd": 1.39,
+  "measured_pilot_usd": 1.21,
+  "preflight_in_tok_per_logbook": 6961,
+  "measured_in_tok_per_logbook": 9489,
+  "length_underestimate_factor": 1.363,
+  "revised_full_arm_cold_usd": 14.1,
+  "extend_to_target_cold_usd": 7.49
+ },
+ "archive_regime": {
+  "fresh_vs_fresh": 0.10492,
+  "fresh_vs_archive": 0.23279,
+  "ratio": 2.219,
+  "drift_test": {
+   "spearman_judged_at_vs_archdis_rho": 0.0104,
+   "p": 0.9373,
+   "pilot_judged_range": [
+    "2026-07-18",
+    "2026-08-02"
+   ],
+   "control_judged_range": [
+    "2026-07-20",
+    "2026-07-27"
+   ],
+   "verdict": "refuted"
+  },
+  "prompt_infidelity": {
+   "control_reproduced_archive": "48/48",
+   "verdict": "refuted"
+  },
+  "control_different_in_kind": {
+   "p_zero_48_given_dc": 2.99e-06,
+   "pilot_fully_stable_logbooks": 23,
+   "control_fully_stable": 10,
+   "selection_test_fisher_p": 0.294,
+   "noncontrol_dup_group_rate": 0.1,
+   "verdict": "supported, mechanism not demonstrated"
+  },
+  "identifiability": {
+   "corpus_fields": [
+    "claims",
+    "judged_at",
+    "model",
+    "orid",
+    "overall",
+    "paper_title",
+    "quality",
+    "sha",
+    "space_id"
+   ],
+   "model_strings": [
+    "zai-org/GLM-5.2"
+   ],
+   "provider_field": false,
+   "note": "archive ran unpinned router; pilot pinned baseten; provider heterogeneity and build drift not separable"
+  }
+ },
+ "decision_rule": {
+  "source": "mem_60a6cdd2f322",
+  "threshold": 0.667,
+  "alpha_retest": 0.8477,
+  "ci": [
+   0.7457,
+   0.9313
+  ],
+  "cleared_at_lower_bound": true,
+  "outcome": "pipeline-non-determinism reframing confirmed",
+  "record_correction": "mem_02e6e950bd85 claim of exact reproduction under identical input is false; reproduction is 89.5%"
+ }
+}

@@ -1,0 +1,5 @@
+stratum,pairs,claims_with_ge1_pair,alpha,alpha_CI_lo,alpha_CI_hi,D_o,D_e,hard_pairs,hard_claims
+stratumA_identical_evidence,0,0,,,,,,0,0
+stratumB_differing_evidence,112390,5081,0.14141939871701859,0.13035043398390375,0.15295656391617002,0.47891271465432866,0.5577958713936547,2893,337
+substitute_both_no_experiments,363,174,nan,nan,nan,0.0,0.0,0,0
+substitute_same_sha,34,34,0.953375086986778,0.840495471378218,1.0,0.029411764705882353,0.6308165057067603,0,0

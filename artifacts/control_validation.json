@@ -1,0 +1,163 @@
+{
+ "usable_groups": 5,
+ "logbooks": 10,
+ "claim_pairs": 24,
+ "detail": [
+  {
+   "sha": "1b5d605d9d",
+   "orid": "68AMoK2YNk",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    3,
+    5
+   ],
+   "shared": 0,
+   "usable": false
+  },
+  {
+   "sha": "8aba6f2326",
+   "orid": "J0y3sNbo9G",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    3,
+    6
+   ],
+   "shared": 0,
+   "usable": false
+  },
+  {
+   "sha": "913699f1d9",
+   "orid": "jl2f2Y3iuC",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    3,
+    5
+   ],
+   "shared": 0,
+   "usable": false
+  },
+  {
+   "sha": "1581710534",
+   "orid": "N9nlCRUiir",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    2,
+    6
+   ],
+   "shared": 0,
+   "usable": false
+  },
+  {
+   "sha": "f69d7a4872",
+   "orid": "SGTLVjx3MN",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    2,
+    6
+   ],
+   "shared": 0,
+   "usable": false
+  },
+  {
+   "sha": "0c20cb898d",
+   "orid": "2iDtIht7W4",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    6,
+    6
+   ],
+   "shared": 6,
+   "usable": true
+  },
+  {
+   "sha": "1d17d5fa14",
+   "orid": "iEtOxzAs51",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    3,
+    3
+   ],
+   "shared": 3,
+   "usable": true
+  },
+  {
+   "sha": "cf6521b3d3",
+   "orid": "iJDJCO4mji",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    6,
+    6
+   ],
+   "shared": 6,
+   "usable": true
+  },
+  {
+   "sha": "09a801d6fb",
+   "orid": "29sn1uqWn3",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    6,
+    6
+   ],
+   "shared": 6,
+   "usable": true
+  },
+  {
+   "sha": "6b4db58ff5",
+   "orid": "IalpB5Mzaz",
+   "fetched": 2,
+   "identical": true,
+   "claims_each": [
+    3,
+    3
+   ],
+   "shared": 3,
+   "usable": true
+  },
+  {
+   "sha": "668097546b",
+   "orid": "rEzGzILnVC",
+   "fetched": 1,
+   "identical": false,
+   "claims_each": [
+    2,
+    2
+   ],
+   "shared": 2,
+   "usable": false
+  },
+  {
+   "sha": "01086ab68c",
+   "orid": "cX3r7kAqr1",
+   "fetched": 1,
+   "identical": false,
+   "claims_each": [
+    2,
+    2
+   ],
+   "shared": 2,
+   "usable": false
+  },
+  {
+   "sha": "4ea8c7d045",
+   "orid": "2iFauBXg7Y",
+   "fetched": 1,
+   "identical": false,
+   "claims_each": [
+    6,
+    6
+   ],
+   "shared": 6,
+   "usable": false
+  }
+ ]
+}
