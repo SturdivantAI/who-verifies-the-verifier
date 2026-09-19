@@ -14,17 +14,22 @@ Large language models increasingly score the work of other AI systems.
 Published work reports how well such judges agree with human raters. Very
 little of it reports whether a judge agrees with itself.
 
-This repository holds the analysis behind a study of one judge model's
-self-consistency, using the public verdict log of the 2026 ICML Agent
-Reproduction Challenge, plus a controlled re-judgment experiment that
-separates instability in the judge from variation in the evidence.
+This repository measures one judge model's consistency two ways, and the
+distinction matters. The observational arm uses the public verdict log of
+the 2026 ICML Agent Reproduction Challenge and characterises the composite
+instrument: claim, evidence, harness and judge together. The experimental
+arm re-judges with input held fixed and isolates the judge's own
+test-retest reliability. Only the second is judge self-consistency in the
+strict sense; the first is cross-logbook consistency of the whole
+measuring apparatus.
 
 ## Findings
 
-Observational arm, from the public verdict log:
+Observational arm, composite instrument, cross-logbook:
 
 - 32,688 claim-level verdicts across 6,398 independent reproduction attempts
-- 10,614 unique claims, keyed on paper identifier plus full claim text
+- 10,614 unique claims, keyed on paper identifier plus full claim text,
+  on the corpus as published and unrepaired (see Corpus integrity below)
 - 5,081 claims judged more than once; one claim drew 42 separate verdicts
 - 70.1 percent of repeat-judged claims carry at least one disagreeing verdict
 - Two readings of one claim differ 48.06 percent of the time, claim-weighted
@@ -32,13 +37,16 @@ Observational arm, from the public verdict log:
 - Claim-weighted Krippendorff's alpha across the four labels is 0.229
   (CI 0.218 to 0.239), against a floor of 0.667 for tentative conclusions
 
-Experimental arm, 236 logbooks re-judged with input held fixed:
+Experimental arm, judge test-retest on fixed input:
 
 - The judge disagreed with itself 8.41 percent of the time
   (CI 6.08 to 11.03), alpha 0.874
 - 183 of 236 logbooks were fully stable
 - That floor sits 39.6 points below the cross-logbook rate, so most measured
-  disagreement is attributable to varying evidence rather than to the judge
+  disagreement is attributable to varying evidence rather than to the judge.
+  The gap is strong evidence against reading the observational 48.06
+  percent as intrinsic judge instability. It is not by itself a formal
+  causal decomposition
 
 ## Layout
 
@@ -114,6 +122,15 @@ decimals. Repairing the identifiers instead gives 10,605 unique claims and
 5,084 repeat-judged. This repository reports the unrepaired figures, because
 the normalization step is not yet implemented or documented. Identifier
 normalization is carried forward to the journal submission.
+
+## A note on two keys
+
+The headline counts use a key of paper identifier plus full claim text.
+`results/results_krippendorff_alpha.md` additionally reports an
+80-character prefix key, which yields 10,613 rather than 10,614: exactly
+one prefix collision exists, merging an m=1 and an m=10 claim into m=11.
+The effect on alpha is 0.0001. Both keys are reported so the choice is
+visible rather than assumed.
 
 ## Reproducibility scope
 
